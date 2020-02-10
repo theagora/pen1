@@ -18,7 +18,7 @@ email: theagora@github.com
 description: >- # this means to ignore newlines until "baseurl:"
   Monthly Originals & Insights © MMXX ✧ Issue 0x0 
 baseurl: "/pen1" # the subpath of your site, e.g. /blog
-url: "theagora.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://theagora.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #google_analytics: 'UA-131540516-1' # Substitute this with your own GA key
 twitter_username: agoradao
 github_username:  agorahub
