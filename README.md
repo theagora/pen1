@@ -1,31 +1,42 @@
-# PEN One 
+# PEN One
+![Agora Flag](./assets/favicon.png) ![RoA PEN](./assets/images/roa-pen1.png)
 
-Preliminary publishing platform of the [Agora PEN Project](https://github.com/agorahub/AIPs/issues/1).
+One-stop publishing platform of the [Agora PEN Project](https://github.com/agorahub/AIPs/issues/1).
 
-## Install, Bundle and Deploy
+## Test and Deploy
 
-Please read [jekyll](https://jekyllrb.com) for reference.
- 
 ```
 $ gem install bundler jekyll
+$ vim _config.yml # Configure to test or deploy.
+
 $ bundle exec jekyll serve
 # => Now browse to http://localhost:4000
 
-# Edit _config.yml for production deployment
 $ JEKYLL_ENV=production bundle exec jekyll build
-# Deploy compiled contents in the _site to your html server
+# Copy the compiled codes from _site/ to html server.
 ```
 
-## Copyleft and Collaborate
+## How To Contribute
 
-- The [PEN Team][pen-team] manages this publication and grants copyleft to the Agora community.
+### Write Columns
 
-- You can join the Agora community at GitHub:
-[agorahub][agora-hub]/[_join](https://github.com/agorahub/_join)
+Please read and use the [TEMPLATE](./_collections/_columns/0000-00-00-column-template.md), and put your posts in the same directory.
 
-- And collaborate at GitHub:
-[agorahub][agora-hub]/[_meta](https://github.com/agorahub/_meta)
+1. Clone repo and test posts
+2. Commit posts (via upload)
+3. Pull request (for peer review)
 
+### Draft Heros
 
-[agora-hub]: https://github.com/agorahub
-[pen-team]: https://github.com/orgs/agorahub/teams/pen
+The [PEN Board](https://github.com/orgs/agorahub/teams/pen) manages this publication on behalf of the Agora community.
+
+- Join the Agora - [agorahub/_join](https://github.com/agorahub/_join)
+- Start exploring - [agorahub/_meta](https://github.com/agorahub/_meta)
+- Join the Board - [@agorahub/pen](https://github.com/orgs/agorahub/teams/pen)
+
+### Improve PEN
+
+- [AIP-PEN Proposal Issue](https://github.com/agorahub/AIPs/issues/1)
+- [AIP-PEN Project Board](https://github.com/agorahub/AIPs/projects/1)
+- [New Features Waitlist](https://github.com/agorahub/pen0/issues/3)
+
