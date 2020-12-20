@@ -3,11 +3,11 @@ layout: post
 title : COLUMN TEMPLATE           # POST_TITLE
 author: AUTHOR NAME               # POST_AUTHOR
 date  : 0000-00-00 00:00:00 +0800 # DATE_WITH_TIMEZONE
-image : ../assets/favicon.png     # IMAGE_URL_OR_PATH
+image : /assets/favicon.png       # IMAGE_URL_OR_PATH
 image_caption: REPUBLIC OF AGORA  # IMAGE_CAPTION
 ---
 
-PLEASE READ AND USE THIS TEMPLATE, AND [CLICK HERE FOR A GUIDE TO WRITE A COLUMN](../about).
+PLEASE READ AND USE THIS TEMPLATE, AND [CLICK HERE FOR A GUIDE TO WRITE A COLUMN](/about).
 
 EXCERPT (<200 WORDS) ENDS HERE.
 
@@ -28,7 +28,7 @@ EXCERPT (<200 WORDS) ENDS HERE.
 
 ### COMMIT YOUR POST
 
-5- [CLICK HERE FOR A GUIDE](../about).
+5- [CLICK HERE FOR A GUIDE](/about).
 
 <!--END-->
 
