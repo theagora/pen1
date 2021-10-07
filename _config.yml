@@ -9,6 +9,13 @@ gh_repo: theagora/pen1
 # Build settings
 markdown: kramdown
 theme: minima
+feed:
+  posts_limit: 50
+  collections:
+    heros:
+      path: "/heros.xml"
+    columns:
+      path: "/columns.xml"
 plugins:
   - jekyll-feed
 
